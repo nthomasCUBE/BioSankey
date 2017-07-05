@@ -1,0 +1,160 @@
+<html>
+<head>
+<noscript>JavaScript is needed for BioSankey</noscript>
+<style>
+h1 {
+    color: red;
+	font-family: Arial;
+	color: blue;
+	font-size:28px;
+}
+h2 {
+	color:	green;
+	font-family: Arial;
+	font-size:12px;
+}
+body {
+    background-color: #111111ff;
+}
+p {
+    border: 1px solid powderblue;
+}
+textarea#textarea1 {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	font-size:15px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<h1>BioSankey - Exploring variants and microbiomes along different timepoints</h1>
+<p>
+<h2>Please insert variants/genes, which should be displayed</h2>
+<textarea name="textarea1" id="textarea1" onfocus="this.value=''; ">You can select either 'all' or 'A1', 'A5', or 'A9' or keywords ('resistance').
+If more genes should be visualized, please seperate them by a comma.</textarea>
+</textarea>
+<button onclick="do_update()">Select</button>
+</p>
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['sankey']}]}"></script>
+<button onclick="do_update('GENES')">All Genes</button>
+<button onclick="do_update('DEG')">All DEG categories</button>
+<div id="sankey_basic" style="width: 900px; height: 300px;"></div>
+<script type="text/javascript">
+    var data;
+	var chart;
+
+    function do_update(val){
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'From');
+		data.addColumn('string', 'To');
+		data.addColumn('number', 'Genes');
+		var map = { 'gene1': [['2h_up_gene1','6h_up_gene1',100],], 'gene2': [['2h_up_gene2','6h_down_gene1',100],],'up': [['2h_up','6h_up',23],['2h_up','6h_down',0],['2h_up','6h_LC',32],['6h_up','16h_up',55],['6h_up','16h_down',1],['6h_up','16h_LC',82],['16h_up','24h_up',55],['16h_up','24h_down',0],['16h_up','24h_LC',44],['2h_down','6h_up',3],['2h_down','6h_down',54],['2h_down','6h_LC',116],['6h_down','16h_up',0],['6h_down','16h_down',306],['6h_down','16h_LC',76],['16h_down','24h_up',0],['16h_down','24h_down',254],['16h_down','24h_LC',446],['2h_LC','6h_up',112],['2h_LC','6h_down',328],['2h_LC','6h_LC',820],['6h_LC','16h_up',44],['6h_LC','16h_down',393],['6h_LC','16h_LC',531],['16h_LC','24h_up',110],['16h_LC','24h_down',104],['16h_LC','24h_LC',475],], 'bla': [['dewjkd','eklfwe',34],]}
+		var cur_vals=document.getElementById('textarea1').value;
+		var found_match=false;
+		if(val=="DEG"){
+			for(var key in map){
+				opt=(key=="up")
+				if(opt==true){
+					data.addRows(map[key])
+				}
+			}
+		}
+		if(val=="GENES"){
+			for(var key in map){
+				opt=(key=="up")
+				if(opt==false){
+					data.addRows(map[key])
+				}
+			}
+		}
+		if(typeof(val) == "undefined"){
+			cur_vals = cur_vals.split(',');
+			for(var cur_val in cur_vals){
+				cur_val=cur_vals[cur_val];
+				if(cur_val=="all"){
+					for(var key in map){
+						opt=(key=="up")
+						if(val=="DEG"){
+							if(opt==true){
+								data.addRows(map[key])
+							}
+						}else{
+							if(opt==false){
+								data.addRows(map[key])
+							}
+						}
+						found_match=true;
+					}
+				}else{
+					data.addRows(map[cur_val]);
+					found_match=true;
+				}
+			}
+		}
+		for(var key in map){
+			for(var el in map[key]){
+				var opt=(key=="up")
+				if(typeof(val) == "undefined"){
+					data.addRow(map[key][el])
+				}else{
+					if(key!="up"){
+						var n=map[key][el][0].search(val);
+						if(n>=0){
+							data.addRow(map[key][el])
+						}
+					}
+				}
+			}
+		}
+
+        var options = {
+          width: 600,
+            sankey: {
+                node: {
+                    interactivity: true
+                }
+            }
+        };
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+          google.visualization.events.addListener(chart, 'select', function() {
+              var sel = chart.getSelection();
+             if (sel.length)
+				      do_update(sel[0].name);
+          });
+	}
+
+	function drawChart() {
+		var data = new google.visualization.DataTable();
+		data.addColumn('string', 'From');
+		data.addColumn('string', 'To');
+		data.addColumn('number', 'Weight');
+		var map = {'up': [['2h_up','6h_up',23],['2h_up','6h_down',0],['2h_up','6h_LC',32],['6h_up','16h_up',55],['6h_up','16h_down',1],['6h_up','16h_LC',82],['16h_up','24h_up',55],['16h_up','24h_down',0],['16h_up','24h_LC',44],['2h_down','6h_up',3],['2h_down','6h_down',54],['2h_down','6h_LC',116],['6h_down','16h_up',0],['6h_down','16h_down',306],['6h_down','16h_LC',76],['16h_down','24h_up',0],['16h_down','24h_down',254],['16h_down','24h_LC',446],['2h_LC','6h_up',112],['2h_LC','6h_down',328],['2h_LC','6h_LC',820],['6h_LC','16h_up',44],['6h_LC','16h_down',393],['6h_LC','16h_LC',531],['16h_LC','24h_up',110],['16h_LC','24h_down',104],['16h_LC','24h_LC',475],],'bla': [['dewjkd','eklfwe',34],]}
+        var options = {
+          width: 600,
+            sankey: {
+                node: {
+                    interactivity: true
+                }
+            }
+        };
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+          google.visualization.events.addListener(chart, 'select', function() {
+              var sel = chart.getSelection();
+              if (sel.length)
+                  alert('You selected node "' + sel[0].name + '"');
+          });
+      }
+</script>
+<hr>
+<h2>Citation</h2>
+Platzer Alexander, BioSankey...
+</body>
+</html>
