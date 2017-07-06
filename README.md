@@ -1,6 +1,6 @@
 # BioSankey
 
-BioSankey is a tool for generating Sankey plot from biological data. Sankey plots are suitable to show changes of counts or abundances over time, for example gene expression and abundances of microbial species. The plots are produced interactively as a java-script html page and as static pdf plots. Multiple input formats are supported.
+BioSankey is a tool for generating Sankey plot from biological data. Sankey plots are suitable to show changes of counts or abundances over time, for example gene expression and abundances of microbial species. The plots are produced as a interactive java-script html page and as static pdf plots. Multiple input formats are supported.
 
 
 ## Prerequisites
