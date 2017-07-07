@@ -39,5 +39,9 @@
  If there are any issues and suggestions, please contact 
  Alexander Platzer ( alexander.platzer AT univie.ac.at ) or Thomas Nussbaumer ( thomas.nussbaumer AT univie.ac.at )
  
+ ![alt text](https://github.com/nthomasCUBE/BioSankey/blob/master/Use_case_2/OTU.png)
+ 
+ 
+ 
  ## License
  https://creativecommons.org/licenses/by/4.0/
