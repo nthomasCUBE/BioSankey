@@ -4,11 +4,11 @@
  
  ## Prerequisites
  
- Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularely efficient.
+ Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularly efficient.
  
  ## Installation
  
- No particular installation is needed, just the files of this repository downloaded.
+ No particular installation is needed, just the files of this repository need to be downloaded.
  
  ## Application
  
@@ -28,10 +28,10 @@
  #### Format of input data:
   Genes divided in up and downregulated
  or
-  Abundances of genes or other entities (microbial species of a certain taxon, metabolites, ...)
+  abundances of genes or other entities (microbial species of a certain taxon, metabolites, ...)
  
  It requires, that all timepoints of interest containing the genes and are also contained in the expression data lists.
- E.g. Genes, that are upregulated at 16h and downregulated would be summarized in the file: '16h_down.dat'.
+ E.g. genes, that are upregulated at 16h and downregulated would be summarized in the file: '16h_down.dat'.
  
  
  ## Questions and problems
