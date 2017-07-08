@@ -29,7 +29,7 @@
  ### Demo data
  
  For demonstration purposes, we used the data from
- Morandi, Elena, et al. "Gene expression timeseries analysis of camptothecin effects in U87MG and DBTRG05 glioblastoma cell lines." Molecular cancer 7.1 (2008): 66.
+ [Morandi, Elena, et al. "Gene expression timeseries analysis of camptothecin effects in U87MG and DBTRG05 glioblastoma cell lines." Molecular cancer 7.1 (2008): 66.](https://www.ncbi.nlm.nih.gov/pubmed/18694480)
  containing expression information at six different timepoints: 2h, 6h, 16h, 24h, 48h, and 72h. We also added an use case (Use case 2) where we included OTU with random counts.
  
  #### Format of input data:
