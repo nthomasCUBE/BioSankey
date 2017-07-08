@@ -14,7 +14,8 @@
  
  In order to generate a projectspecific HTML, that allows to query data, either genes or DEG lists, it needs to run the python scripts
  
- 'python 0_make_html.py'
+ 'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information'
+ 'python 0_make_html.py expr=Use_case_2/example.txt'
  
  Furthermore, it needs to prepare the data in form, that it can be converted into transition as shown in the Sankeys Plot.
  
