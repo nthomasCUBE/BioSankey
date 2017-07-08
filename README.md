@@ -15,11 +15,14 @@
  In order to generate a projectspecific HTML, that allows to query data, either genes or DEG lists, it needs to run the python scripts
 
 ### Run1 - Timeseries data of camptothecin effect
+```
  'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information'
-
+```
 ### Run2 - Randomly generated OTUs clustering visualisation
- 'python 0_make_html.py expr=Use_case_2/example.txt'
- 
+```
+'python 0_make_html.py expr=Use_case_2/example.txt'
+```
+
  Furthermore, it needs to prepare the data in form, that it can be converted into transition as shown in the Sankeys Plot.
  
  
