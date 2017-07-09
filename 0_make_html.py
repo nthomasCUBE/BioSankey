@@ -275,16 +275,8 @@ for vals_ in vals:
 		DEG_DIR=vals_.split("deg=")[1]
 		deg_f=True
 
-if(expr_f==False and deg_f==False):
-	print "ERROR\texpression file and deg dir file missing"
-	print "USAGE: python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information"
-	sys.exit()
-elif(expr_f==False):
+if(expr_f==False):
 	print "ERROR\texpression file missing"
-        print "USAGE: python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information"
-	sys.exit()
-elif(deg_f==False):
-	print "ERROR\tdeg dir missing"
         print "USAGE: python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information"
 	sys.exit()
 
