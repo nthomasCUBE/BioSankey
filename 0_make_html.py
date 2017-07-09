@@ -268,22 +268,26 @@ vals=sys.argv[1:]
 expr_f=False
 deg_f=False
 for vals_ in vals:
-	if(vals_.find("expr=")!=-1):
-		EXP_DIR=vals_.split("expr=")[1]
-		expr_f=True
-	elif(vals_.find("deg=")!=-1):
-		DEG_DIR=vals_.split("deg=")[1]
-		deg_f=True
+        if(vals_.find("expr=")!=-1):
+                EXP_DIR=vals_.split("expr=")[1]
+                expr_f=True
+        elif(vals_.find("deg=")!=-1):
+                DEG_DIR=vals_.split("deg=")[1]
+                deg_f=True
 
 if(expr_f==False):
-	print "ERROR\texpression file missing"
+        print "ERROR\texpression file missing"
         print "USAGE: python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information"
-	sys.exit()
+        sys.exit()
 
 map=extract_gene_expression.run(EXP_DIR)
-map2,map3=extract_DEG_information.run(DEG_DIR,EXP_DIR)
-
+if(deg_f==True):
+        map2,map3=extract_DEG_information.run(DEG_DIR,EXP_DIR)
+else:
+        map2=""
+        map3="var map2={}"
 a=a.replace("___MAP___","var map={"+map+"'up':["+map2+"]"+"}")
 a=a.replace("___MAP2___",map3)
 print(a)
+
 
