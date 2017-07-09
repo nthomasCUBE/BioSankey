@@ -16,7 +16,7 @@
 
 ### Run1 - Timeseries data of camptothecin effect
 ```
- 'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information'
+ 'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information  > use_case1.html'
 ```
 ### Run2 - Randomly generated OTUs clustering visualisation
 ```
