@@ -30,7 +30,10 @@
  
  For demonstration purposes, we used the data from
  [Morandi, Elena, et al. "Gene expression timeseries analysis of camptothecin effects in U87MG and DBTRG05 glioblastoma cell lines." Molecular cancer 7.1 (2008): 66.](https://www.ncbi.nlm.nih.gov/pubmed/18694480)
- containing expression information at six different timepoints: 2h, 6h, 16h, 24h, 48h, and 72h. We also added an use case (Use case 2) where we included OTU with random counts.
+ containing expression information at six different timepoints: 2h, 6h, 16h, 24h, 48h, and 72h. 
+ 
+ We also added an use case (Use case 2) where we included OTU from Moving pictures of the 
+ [Caporaso JG, Lauber CL, Costello EK, Berg-Lyons D, Gonzalez A, Stombaugh J, Knights D, Gajer P, Ravel J, Fierer N, Gordon JI, and Knight R. 2011. Moving pictures of the human microbiome. Genome Biol 12:R50. 10.1186/gb-2011-12-5-r50](https://www.ncbi.nlm.nih.gov/pubmed/21624126)
  
  #### Format of input data:
   Genes divided in up and downregulated
