@@ -1,6 +1,6 @@
 # BioSankey
  
- BioSankey is a tool for generating Sankey plots from biological data. Sankey plots are suitable to show changes of counts or abundances over time (e.g. gene expression and abundances of microbial species). The plots are produced as an interactive Javascript HTML page and as static PDF plots. Multiple input formats are supported.
+ BioSankey is a tool for generating Sankey plots from biological data either by using gene expression or microbical data. Sankey plots are suitable to show changes of counts or abundances over time (e.g. gene expression and abundances of microbial species). The plots are produced as an interactive Javascript HTML page and as static PDF plots. Multiple input formats are supported.
  
  ## Prerequisites
  
@@ -12,15 +12,15 @@
  
  ## Application
  
- In order to generate a projectspecific HTML, that allows to query data, either genes or DEG lists, it needs to run the python scripts
+ In order to generate a project-specific HTML, that allows to query data, either genes or DEG lists, it needs to run the python scripts
 
 ### Run1 - Timeseries data of camptothecin effect
 ```
- 'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information  > use_case1.html'
+'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information dom=Use_case_1/1_extract_domains.txt > Use_case_1.html'
 ```
 ### Run2 - Randomly generated OTUs clustering visualisation
 ```
-'python 0_make_html.py expr=Use_case_2/example.txt'
+'python 0_make_html.py expr=$tmp mic=$tmp > Use_case_2.html'
 ```
 
  Furthermore, it needs to prepare the data in form, that it can be converted into transition as shown in the Sankeys Plot.
