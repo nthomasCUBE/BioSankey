@@ -16,11 +16,12 @@
 
 ### Run1 - Timeseries data of camptothecin effect
 ```
-'python 0_make_html.py expr=Use_case_1/extract_genes.txt deg=Use_case_1/DEG_information dom=Use_case_1/1_extract_domains.txt > Use_case_1.html'
+python 0_make_html.py expr=Use_case_1/GENES.txt deg=Use_case_1/DEG_information dom=Use_case_1/DOMAINS.txt > Use_case_1.html
+
 ```
 ### Run2 - Randomly generated OTUs clustering visualisation
 ```
-'python 0_make_html.py expr=$tmp mic=$tmp > Use_case_2.html'
+python 0_make_html.py expr=Use_case_2/OTUs.txt mic=Use_case_2/OTUs.txt > Use_case_2.html
 ```
 
  Furthermore, it needs to prepare the data in form, that it can be converted into transition as shown in the Sankeys Plot.
