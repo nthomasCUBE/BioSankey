@@ -45,7 +45,7 @@ python 0_make_html.py expr=Use_case_2/OTUs.txt mic=Use_case_2/OTUs.txt > Use_cas
  
  #### Picture export in high-quality
  In order to provide publication-ready images, we suggest to use PhantomJs, which allows to
- make a screenshot of the current webseite.
+ make a screenshot of the current webseite. [Link to PhantomJs](http://phantomjs.org/)
 ```
 phantomjs-2.1.1-linux-i686/bin/phantomjs rasterize.js 'Use_case_combined.html' V1.png "100cm*80cm" 3
 convert V1.png -trim V1x1.png
