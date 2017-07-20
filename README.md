@@ -51,6 +51,9 @@ phantomjs-2.1.1-linux-i686/bin/phantomjs rasterize.js 'Use_case_combined.html' V
 convert V1.png -trim V1x1.png
 ```
 
+#### Excel to tab export
+
+In order to export Excelt o tsv, we recommend to use [xlsx2tsv](https://gist.github.com/brendano/22764).
 
 
  ## Questions and problems
