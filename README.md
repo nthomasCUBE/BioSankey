@@ -43,7 +43,16 @@ python 0_make_html.py expr=Use_case_2/OTUs.txt mic=Use_case_2/OTUs.txt > Use_cas
  It requires, that all timepoints of interest containing the genes and are also contained in the expression data lists.
  E.g. genes, that are upregulated at 16h and downregulated would be summarized in the file: '16h_down.dat'.
  
- 
+ #### Picture export in high-quality
+ In order to provide publication-ready images, we suggest to use PhantomJs, which allows to
+ make a screenshot of the current webseite.
+```
+phantomjs-2.1.1-linux-i686/bin/phantomjs rasterize.js 'Use_case_combined.html' V1.png "100cm*80cm" 3
+convert V1.png -trim V1x1.png
+```
+
+
+
  ## Questions and problems
  
  If there are any issues and suggestions, please contact 
