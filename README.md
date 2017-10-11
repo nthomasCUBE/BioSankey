@@ -17,7 +17,7 @@
 
 ### GUI supported run
 
-A user has to specific the needed files by choosing files from the Graphical User Inferface ([starting biosankey.py]).
+A user has to specific the needed files by choosing files from the Graphical User Inferface (starting biosankey.py).
 There a user can upload expression information, domain information or microbial information.
  
   ### Demo data
