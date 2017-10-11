@@ -70,7 +70,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
                                 </select>
                             </div>
                             <div class="col-xs-6">
-                                <select class="form-control col-xs-3" id='my_select' name='my_select' onChange="do_update(this.selectedIndex);"></select>
+                                <select class="form-control col-xs-3" id='my_select' name='my_select' onChange="do_update(this.selectedIndex);">___OPTIONS2___</select>
                             </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
             
                 <div class="panel-footer">
                     <div style="font-size: 1.3em; padding-top: 8px;">Citation</div>
-                    <p class="lead" style="font-size: 1.1em;">Platzer, Polzin, Han and Nussbaumer. BioSankey: a tool to visualise and analyse microbial communities, gene expression and variants over time.</p>
+                    <p class="lead" style="font-size: 1.1em;">Platzer, Polzin, Han, Rembart and Nussbaumer. BioSankey: a tool to visualise and analyse microbial communities, gene expression and variants over time.</p>
                 </div>
             </div>
 
