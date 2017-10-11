@@ -5,6 +5,7 @@
  ## Prerequisites
  
  Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularly efficient.
+ It was tested under Windows Python 3.6 and does not require additional dependencies except an internet connection to allow to integrate the Google API diagrams.
  
  ## Installation
  
@@ -14,20 +15,12 @@
  
  In order to generate a project-specific HTML, that allows to query data, either genes or DEG lists, it needs to run the python scripts
 
-### Run1 - Timeseries data of camptothecin effect
-```
-python 0_make_html.py expr=Use_case_1/GENES.txt deg=Use_case_1/DEG_information dom=Use_case_1/DOMAINS.txt > Use_case_1.html
+### GUI supported run
 
-```
-### Run2 - Randomly generated OTUs clustering visualisation
-```
-python 0_make_html.py expr=Use_case_2/OTUs.txt mic=Use_case_2/OTUs.txt > Use_case_2.html
-```
-
- Furthermore, it needs to prepare the data in form, that it can be converted into transition as shown in the Sankeys Plot.
+A user has to specific the needed files by choosing files from the Graphical User Inferface (starting biosankey.py).
+There a user can upload expression information, domain information or microbial information.
  
- 
- ### Demo data
+  ### Demo data
  
  For demonstration purposes, we used the data from
  [Morandi, Elena, et al. "Gene expression timeseries analysis of camptothecin effects in U87MG and DBTRG05 glioblastoma cell lines." Molecular cancer 7.1 (2008): 66.](https://www.ncbi.nlm.nih.gov/pubmed/18694480)
