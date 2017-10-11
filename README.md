@@ -2,6 +2,8 @@
  
  BioSankey is a tool for generating Sankey plots from biological data either by using gene expression or microbical data. Sankey plots are suitable to show changes of counts or abundances over time (e.g. gene expression and abundances of microbial species). The plots are produced as an interactive Javascript HTML page and as static PDF plots. Multiple input formats are supported.
  
+ ![alt text](http://url/to/img.png)
+ 
  ## Prerequisites
  
  Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularly efficient.
