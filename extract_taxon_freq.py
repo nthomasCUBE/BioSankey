@@ -1,7 +1,7 @@
 import sys
 
 def parse_taxon_freq(c_f):
-	fh=file(c_f)
+	fh=open(c_f)
 	levels={}
 	freq={}
 	prev={}
@@ -18,7 +18,7 @@ def parse_taxon_freq(c_f):
 			prev[cl[x]]=cl[x-1]
 			for y in range(2,len(vals)):
 				freq[cl[x]]=freq[cl[x]]+float(vals[y])
-	lv=levels.keys()
+	lv=list(levels.keys())
 	lv.sort()
 	cmd="data.addRows(["
 	for lv_ in lv:

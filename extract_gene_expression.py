@@ -11,23 +11,27 @@ import sys
 def run(EXP_DIR):
 	def get_expression():
 		header=None
-		fh=file(EXP_DIR)
+		fh=open(EXP_DIR)
 		p=0
 		cmd=""
+		cmd2=""
 		for line in fh.readlines():
 			line=line.strip()
 			vals=line.split()
 			if(p==0):
-				header=vals
+				header=["start"]
+				for vals_ in vals:
+					header.append(vals_)
 			elif(len(vals)>1):
 				cmd=cmd+"'%s':[" % vals[0]
-				for x in range(2,len(vals)-1):
+				for x in range(1,len(vals)):
 					comma=""
-					if(x!=(len(vals)-2)):
+					if(x!=(len(vals)-1)):
 						comma=","
 					cmd=cmd+"['%s','%s',%s]%s" % (vals[0]+"_"+header[x],vals[0]+"_"+header[x+1],str(round(float(vals[x]),2)),comma)
 				cmd=cmd+"],"
+				cmd2=cmd2+"<option>"+vals[0]+"</option>"
 			p=p+1
-		return(cmd)
+		return(cmd,cmd2)
 	return get_expression()
 

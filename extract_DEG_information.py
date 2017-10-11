@@ -13,7 +13,7 @@ def run(DEG_DIR, EXP_DIR):
 
 	unit=["h","m","d","w"]
 	def get_expr():
-	        fh=file(EXP_DIR)
+		fh=open(EXP_DIR)
 		p=0
 		mm={}
 		for line in fh.readlines():
@@ -22,7 +22,7 @@ def run(DEG_DIR, EXP_DIR):
 			if(p==0):
 				header=vals
 			else:
-				for x in range(2,len(vals)):
+				for x in range(1,len(vals)):
 					if(mm.get(vals[0])==None):
 						mm[vals[0]]={}
 					mm[vals[0]][header[x]]=str(round(float(vals[x]),2))
@@ -37,17 +37,18 @@ def run(DEG_DIR, EXP_DIR):
 		all={}
 		my_files={}
 		for files_ in files:
-			my_files[files_.split("_")[0]]=1
-			c_f=os.path.join(MAIN,files_)
-			fh=file(c_f)
-			for line in fh.readlines():
-				line=line.strip()
-				vals=line.split()
-				cur_gene=vals[0]
-				all[cur_gene]=1
+			if(files_.endswith(".dat")):
+				my_files[files_.split("_")[0]]=1
+				c_f=os.path.join(MAIN,files_)
+				fh=open(c_f)
+				for line in fh.readlines():
+					line=line.strip()
+					vals=line.split()
+					cur_gene=vals[0]
+					all[cur_gene]=1
 		all=all.keys()
 		fk=my_files.keys()
-		fk.sort()
+		#fk.sort()
 		fk2={}
 		for fk_ in fk:
 			fk_short=fk_
@@ -57,7 +58,7 @@ def run(DEG_DIR, EXP_DIR):
 		return(all),(fk2)
 
 	def DEG(r_id):
-		fh=file("%s/%s" % (DEG_DIR,r_id))
+		fh=open("%s/%s" % (DEG_DIR,r_id))
 		deg={}
 		for line in fh.readlines():
 			line=line.strip()
@@ -84,6 +85,7 @@ def run(DEG_DIR, EXP_DIR):
 
 	(all,files)=get_all_deg()
 	tpsort=files.keys()
+	tpsort=list(tpsort)
 	tpsort.sort()
 	
 	map={}
@@ -102,20 +104,23 @@ def run(DEG_DIR, EXP_DIR):
 				comma=""
 			else:
 				comma=","
-		        cmd2=cmd2+comma+"'"+map_+"'"+":"+"'"+string.join(map[map_],",")+"'"
+				cmd2=cmd2+comma+"'"+map_+"'"+":"+"'"+string.join(map[map_],",")+"'"
 		cmd2="var map2={"+cmd2+"}"
 		cmd=""
 		opt=["up","down","LC"]
+		
+		print(tpsort)
+		
 		for opt_ in opt:
 			for x in range(0,len(tpsort)-1):
 				A=calc_intersect(map[files[tpsort[x]]+"_"+opt_],map[files[tpsort[x+1]]+"_up"])
 				cmd=cmd+"[%s,%s,%i]" % ("'"+files[tpsort[x]]+"_"+opt_+"'","'"+files[tpsort[x+1]]+"_up'",len(A))
 
-	                        A=calc_intersect(map[files[tpsort[x]]+"_"+opt_],map[files[tpsort[x+1]]+"_down"])
-	                        cmd=cmd+"[%s,%s,%i]" % ("'"+files[tpsort[x]]+"_"+opt_+"'","'"+files[tpsort[x+1]]+"_down'",len(A))
+				A=calc_intersect(map[files[tpsort[x]]+"_"+opt_],map[files[tpsort[x+1]]+"_down"])
+				cmd=cmd+"[%s,%s,%i]" % ("'"+files[tpsort[x]]+"_"+opt_+"'","'"+files[tpsort[x+1]]+"_down'",len(A))
 
-	                        A=calc_intersect(map[files[tpsort[x]]+"_"+opt_],map[files[tpsort[x+1]]+"_LC"])
-	                        cmd=cmd+"[%s,%s,%i]" % ("'"+files[tpsort[x]]+"_"+opt_+"'","'"+files[tpsort[x+1]]+"_LC'",len(A))
+				A=calc_intersect(map[files[tpsort[x]]+"_"+opt_],map[files[tpsort[x+1]]+"_LC"])
+				cmd=cmd+"[%s,%s,%i]" % ("'"+files[tpsort[x]]+"_"+opt_+"'","'"+files[tpsort[x+1]]+"_LC'",len(A))
 
 		cmd=cmd.replace(",,",",").replace("][","],[")
 		return cmd,cmd2
