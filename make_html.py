@@ -112,11 +112,11 @@ def parse_html(EXP_DIR_, MIC_DIR_, DEG_DIR_, DOM_DIR_):
 	fw.close()
 
 
-EXP_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Expression.txt"
-MIC_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Microbial.txt"
-DEG_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/DEGs"
-DOM_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Domains.txt"
-parse_html(EXP_DIR_, MIC_DIR_, DEG_DIR_, DOM_DIR_)
+#EXP_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Expression.txt"
+#MIC_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Microbial.txt"
+#DEG_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/DEGs"
+#DOM_DIR_="C:/Users/nussbath/Google Drive/BIOSANKEY_RESUBMISSION/BioSankey-0.2/BioSankey-0.2/GUI_Use_case_1/Domains.txt"
+#parse_html(EXP_DIR_, MIC_DIR_, DEG_DIR_, DOM_DIR_)
 
 
 
