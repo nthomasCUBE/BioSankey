@@ -1,0 +1,374 @@
+OTU_id;#OTU ID;0;1;2;3;4;5;6;7;8;9
+OTU1;"k__Archaea;p__Crenarchaeota;c__Thaumarchaeota;o__Nitrososphaerales;f__Nitrososphaeraceae;g__Candidatus Nitrososphaera";0;0;0;0;0;0;0;0;0;0
+OTU2;"k__Bacteria;p__Acidobacteria;c__Chloracidobacteria;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU3;"k__Bacteria;p__Actinobacteria;c__;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU4;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Acidimicrobiales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU5;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU6;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__;g__Tropheryma";0;0;0;0;0;0;0;0;0;0
+OTU7;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__";0;0;0;1;0;0;0;0;0;0
+OTU8;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__Actinobaculum";0;0;0;0;0;0;0;0;0;0
+OTU9;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces";358;138;218;159;162;267;90;176;82;56
+OTU10;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__Arcanobacterium";0;0;0;0;0;0;0;0;0;0
+OTU11;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__Mobiluncus";0;0;0;0;0;0;0;0;0;0
+OTU12;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinomycetaceae;g__Varibaculum";0;0;0;0;0;0;0;0;0;0
+OTU13;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Actinosynnemataceae;g__Saccharothrix";0;0;0;0;0;0;0;0;0;0
+OTU14;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Beutenbergiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU15;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Bogoriellaceae;g__Georgenia";0;0;0;0;0;0;0;0;0;0
+OTU16;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Brevibacteriaceae;g__Brevibacterium";0;0;0;0;0;0;0;0;0;0
+OTU17;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Cellulomonadaceae;g__Actinotalea";0;0;0;0;0;0;0;0;0;0
+OTU18;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Cellulomonadaceae;g__Cellulomonas";0;0;0;0;0;0;0;0;0;0
+OTU19;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Corynebacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU20;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Corynebacteriaceae;g__Corynebacterium";2;1;7;4;0;33;7;12;13;6
+OTU21;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermabacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU22;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermabacteraceae;g__Brachybacterium";0;0;0;0;0;0;0;0;0;0
+OTU23;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermabacteraceae;g__Dermabacter";0;0;0;0;0;0;0;0;0;0
+OTU24;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermacoccaceae;g__Dermacoccus";0;0;0;0;0;0;0;0;0;0
+OTU25;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermatophilaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU26;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Dermatophilaceae;g__Dermatophilus";0;0;0;0;0;0;0;0;0;0
+OTU27;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Geodermatophilaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU28;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Geodermatophilaceae;g__Blastococcus";0;0;0;0;0;0;0;0;0;0
+OTU29;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Geodermatophilaceae;g__Geodermatophilus";0;0;0;0;0;0;0;0;0;0
+OTU30;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Geodermatophilaceae;g__Modestobacter";0;0;0;0;0;0;0;0;0;0
+OTU31;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Intrasporangiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU32;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Intrasporangiaceae;g__Knoellia";0;0;0;0;0;0;0;0;0;0
+OTU33;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Intrasporangiaceae;g__Phycicoccus";0;0;0;0;0;0;0;0;0;0
+OTU34;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Intrasporangiaceae;g__Serinicoccus";0;0;0;0;0;0;0;0;0;0
+OTU35;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Intrasporangiaceae;g__Terracoccus";0;0;0;0;0;0;0;0;0;0
+OTU36;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Microbacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU37;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Microbacteriaceae;g__Curtobacterium";0;0;0;0;0;0;0;0;0;0
+OTU38;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Microbacteriaceae;g__Microbacterium";0;0;0;0;0;0;0;0;0;0
+OTU39;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU40;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Arthrobacter";0;0;1;0;0;0;0;0;0;0
+OTU41;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Citricoccus";0;0;0;0;0;0;0;0;0;0
+OTU42;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Kocuria";0;0;0;0;0;0;0;0;0;0
+OTU43;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Nesterenkonia";0;0;0;0;0;0;0;2;0;0
+OTU44;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Renibacterium";0;0;0;0;0;0;0;0;0;0
+OTU45;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Rothia";110;79;205;1219;532;148;273;745;448;144
+OTU46;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Micrococcaceae;g__Zhihengliuella";0;0;0;0;0;0;0;0;0;0
+OTU47;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Mycobacteriaceae;g__Mycobacterium";0;0;0;0;0;0;0;0;0;0
+OTU48;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nakamurellaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU49;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardiaceae;g__Rhodococcus";0;0;0;0;0;0;0;0;0;0
+OTU50;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardioidaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU51;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardioidaceae;g__Aeromicrobium";0;0;0;0;0;0;0;0;0;0
+OTU52;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardioidaceae;g__Nocardioides";0;0;0;0;0;0;0;0;0;0
+OTU53;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardiopsaceae;g__";0;0;0;0;0;0;0;0;1;0
+OTU54;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Nocardiopsaceae;g__Nocardiopsis";0;0;0;0;0;0;0;0;0;0
+OTU55;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Promicromonosporaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU56;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Propionibacteriaceae;g__Propionibacterium";0;0;0;0;0;0;0;0;0;0
+OTU57;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Streptomycetaceae;g__Streptomyces";0;0;0;0;0;0;0;0;0;0
+OTU58;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Thermomonosporaceae;g__Actinomadura";0;0;0;0;0;0;0;0;0;0
+OTU59;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Thermomonosporaceae;g__Thermomonospora";0;0;0;0;0;0;0;0;0;0
+OTU60;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Actinomycetales;f__Tsukamurellaceae;g__Tsukamurella";0;0;0;0;0;0;0;0;0;0
+OTU61;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Bifidobacteriales;f__Bifidobacteriaceae;g__Alloscardovia";0;0;0;0;0;0;0;0;0;0
+OTU62;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium";0;1;0;0;0;0;0;0;0;0
+OTU63;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Bifidobacteriales;f__Bifidobacteriaceae;g__Scardovia";0;0;1;1;0;0;1;0;0;0
+OTU64;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Coriobacteriales;f__Coriobacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU65;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium";2;2;1;3;3;10;4;5;8;14
+OTU66;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Coriobacteriales;f__Coriobacteriaceae;g__Olsenella";0;0;0;0;0;0;0;0;0;0
+OTU67;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Coriobacteriales;f__Coriobacteriaceae;g__Slackia";0;0;0;0;0;0;0;0;0;0
+OTU68;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__MC47;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU69;"k__Bacteria;p__Actinobacteria;c__Actinobacteria (class);o__Solirubrobacterales;f__Solirubrobacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU70;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU71;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides";0;0;0;0;0;0;0;0;0;0
+OTU72;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__";1;1;5;0;0;1;1;0;0;2
+OTU73;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Paludibacter";0;0;0;0;0;0;0;0;0;0
+OTU74;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides";0;0;0;0;1;0;0;0;0;0
+OTU75;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas";13;24;38;79;528;519;599;1032;1181;722
+OTU76;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Tannerella";7;3;4;0;0;4;0;1;0;3
+OTU77;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU78;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella";4029;3824;2197;1842;1794;3241;2483;517;2631;2031
+OTU79;"k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes";0;0;0;0;0;0;0;0;0;0
+OTU80;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU81;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__";9;12;4;4;10;7;15;10;9;7
+OTU82;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Bergeyella";0;0;0;0;0;0;0;0;0;0
+OTU83;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Capnocytophaga";3;14;28;8;8;17;5;8;5;5
+OTU84;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Chryseobacterium";0;0;0;0;0;0;0;0;0;0
+OTU85;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium";0;0;0;0;0;0;0;0;0;0
+OTU86;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Kaistella";0;0;0;0;0;0;0;0;0;0
+OTU87;"k__Bacteria;p__Bacteroidetes;c__Flavobacteria;o__Flavobacteriales;f__Flavobacteriaceae;g__Wautersiella";0;0;0;0;0;0;0;0;0;0
+OTU88;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU89;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__;g__Segetibacter";0;0;0;0;0;0;0;0;0;0
+OTU90;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Cyclobacteriaceae;g__Cyclobacterium";0;0;0;0;0;0;0;0;0;0
+OTU91;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Flexibacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU92;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Flexibacteraceae;g__Dyadobacter";0;0;0;0;0;0;0;0;0;0
+OTU93;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Flexibacteraceae;g__Flectobacillus";0;0;0;0;0;0;0;0;0;0
+OTU94;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Flexibacteraceae;g__Hymenobacter";0;0;0;0;0;0;0;0;0;0
+OTU95;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Flexibacteraceae;g__Pontibacter";0;0;0;0;0;0;0;0;0;0
+OTU96;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Sphingobacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU97;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Pedobacter";0;0;0;0;0;0;0;0;0;0
+OTU98;"k__Bacteria;p__Bacteroidetes;c__Sphingobacteria;o__Sphingobacteriales;f__Sphingobacteriaceae;g__Sphingobacterium";0;0;0;0;0;0;0;0;0;0
+OTU99;"k__Bacteria;p__Chloroflexi;c__Bljii12;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU100;"k__Bacteria;p__Chloroflexi;c__SOGA31;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU101;"k__Bacteria;p__Chloroflexi;c__Thermomicrobia;o__HN1-15;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU102;"k__Bacteria;p__Cyanobacteria;c__;o__;f__;g__";0;0;0;0;0;0;0;5;0;0
+OTU103;"k__Bacteria;p__Firmicutes;c__Bacilli;o__;f__;g__";0;0;0;7;0;0;2;1;0;2
+OTU104;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU105;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__;g__Exiguobacterium";0;0;0;0;0;0;0;0;0;0
+OTU106;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__;g__Gemella";73;124;128;76;142;85;62;115;45;57
+OTU107;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Alicyclobacillaceae;g__Alicyclobacillus";0;0;0;0;0;0;0;1;0;0
+OTU108;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__";0;0;0;0;0;0;0;1;0;0
+OTU109;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Anaerobacillus";0;0;0;0;0;0;0;0;0;0
+OTU110;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Anoxybacillus";0;0;0;0;0;0;0;0;0;0
+OTU111;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Bacillus";1;0;1;26;11;4;9;13;9;4
+OTU112;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Geobacillus";0;0;0;0;0;0;0;0;0;0
+OTU113;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Natronobacillus";0;0;0;0;0;0;0;0;0;0
+OTU114;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Pontibacillus";0;0;0;0;0;0;0;0;0;0
+OTU115;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Bacillaceae;g__Virgibacillus";0;0;0;0;0;0;0;0;0;0
+OTU116;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Listeriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU117;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Listeriaceae;g__Brochothrix";0;0;0;0;0;0;0;0;0;0
+OTU118;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Ammoniphilus";0;0;0;0;0;0;0;0;0;0
+OTU119;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Paenibacillaceae;g__Paenibacillus";0;0;0;0;0;0;0;0;0;0
+OTU120;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU121;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Kurthia";0;0;0;0;0;0;0;0;0;0
+OTU122;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Lysinibacillus";0;0;0;0;0;0;0;0;0;0
+OTU123;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Marinibacillus";0;0;0;0;0;0;0;0;0;0
+OTU124;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Solibacillus";0;0;0;4;1;1;1;0;0;0
+OTU125;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Sporosarcina";0;0;0;0;0;0;0;0;0;0
+OTU126;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Planococcaceae;g__Ureibacillus";0;0;0;0;0;0;0;0;0;0
+OTU127;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU128;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Jeotgalicoccus";0;0;0;0;0;0;0;0;0;0
+OTU129;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Macrococcus";0;0;0;0;0;0;0;0;0;0
+OTU130;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Salinicoccus";0;0;0;0;0;1;0;0;0;0
+OTU131;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Bacillales;f__Staphylococcaceae;g__Staphylococcus";0;0;0;0;0;0;0;6;0;0
+OTU132;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU133;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Abiotrophia";0;0;0;0;0;0;0;1;2;0
+OTU134;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Aerococcus";0;0;0;0;0;0;0;0;0;0
+OTU135;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Aerococcaceae;g__Facklamia";0;0;0;0;0;0;0;0;0;0
+OTU136;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__";0;0;0;2;2;0;1;1;0;2
+OTU137;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Alloiococcus";0;0;0;0;0;0;0;0;0;0
+OTU138;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Carnobacterium";0;0;0;0;0;0;0;0;0;0
+OTU139;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Desemzia";0;0;0;0;0;0;0;0;0;0
+OTU140;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Granulicatella";3;3;40;404;195;159;127;250;149;99
+OTU141;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Marinilactibacillus";0;0;0;0;0;0;0;0;0;0
+OTU142;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Carnobacteriaceae;g__Trichococcus";0;0;0;0;0;0;0;0;0;0
+OTU143;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__";0;0;1;11;8;3;2;5;3;2
+OTU144;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Enterococcus";0;0;0;14;10;3;4;4;8;4
+OTU145;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Melissococcus";0;0;0;0;0;0;0;0;0;0
+OTU146;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Tetragenococcus";0;0;0;0;0;0;0;0;0;0
+OTU147;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Enterococcaceae;g__Vagococcus";0;0;0;4;0;2;0;1;0;0
+OTU148;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU149;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus";0;0;0;0;0;0;1;0;0;0
+OTU150;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Pediococcus";0;0;0;0;0;0;0;0;0;0
+OTU151;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU152;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Fructobacillus";0;0;0;0;0;0;0;0;0;0
+OTU153;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Leuconostoc";0;0;0;0;0;0;0;0;0;0
+OTU154;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Weissella";0;0;0;0;0;0;0;0;0;0
+OTU155;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU156;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Lactococcus";0;0;0;0;0;0;0;0;0;0
+OTU157;"k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Streptococcus";355;286;979;707;553;1239;551;907;704;561
+OTU158;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__";21;11;6;7;16;13;7;14;5;20
+OTU159;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Catabacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU160;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium";0;0;0;0;0;0;0;0;0;0
+OTU161;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XI. Incertae Sedis;g__";0;0;2;0;0;1;0;4;4;6
+OTU162;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XI. Incertae Sedis;g__Anaerococcus";0;0;0;0;0;0;0;0;0;0
+OTU163;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XI. Incertae Sedis;g__Finegoldia";0;0;0;0;0;0;0;0;0;0
+OTU164;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XI. Incertae Sedis;g__Helcococcus";0;0;0;0;0;0;0;0;0;0
+OTU165;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XI. Incertae Sedis;g__Peptoniphilus";0;0;0;0;0;0;0;0;0;0
+OTU166;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XIII. Incertae Sedis;g__";0;0;0;0;0;0;0;0;0;0
+OTU167;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XIII. Incertae Sedis;g__Eubacterium";8;8;2;0;4;7;2;4;7;15
+OTU168;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiales Family XIII. Incertae Sedis;g__Mogibacterium";5;0;1;0;2;4;1;3;1;3
+OTU169;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Eubacterium";6;5;6;1;3;5;1;7;5;4
+OTU170;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__";90;69;78;23;74;66;42;56;41;48
+OTU171;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia";0;0;0;0;0;0;0;0;0;0
+OTU172;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Butyrivibrio";0;0;2;0;0;2;1;1;0;0
+OTU173;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Catonella";4;5;5;2;0;7;0;3;1;3
+OTU174;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Clostridium";10;9;2;8;4;0;4;2;6;3
+OTU175;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus";0;0;0;0;0;0;0;0;0;0
+OTU176;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Eubacterium";0;0;0;0;0;0;0;0;0;0
+OTU177;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Johnsonella";1;1;0;0;0;1;1;1;0;0
+OTU178;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnobacterium";0;0;0;0;0;0;0;0;0;0
+OTU179;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnospira";0;0;0;0;0;0;0;0;0;0
+OTU180;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Moryella";0;0;0;0;0;2;0;0;0;0
+OTU181;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Oribacterium";110;139;67;36;67;43;23;71;58;42
+OTU182;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia";0;0;0;0;0;0;0;0;0;0
+OTU183;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Ruminococcus";0;0;0;0;0;0;0;0;0;0
+OTU184;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Shuttleworthia";0;0;0;0;0;0;0;0;0;0
+OTU185;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__Peptococcus";7;3;5;1;1;7;2;5;1;1
+OTU186;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Filifactor";0;0;0;0;0;0;0;0;0;0
+OTU187;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__Peptostreptococcus";3;2;1;2;7;5;6;2;4;5
+OTU188;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU189;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Bacteroides";0;0;0;0;0;0;0;0;0;0
+OTU190;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Eubacterium";0;0;0;0;0;0;0;0;0;0
+OTU191;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Faecalibacterium";0;0;0;0;0;0;0;0;0;0
+OTU192;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira";0;0;0;0;0;0;0;0;0;0
+OTU193;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminococcus";0;0;0;0;0;0;0;0;0;0
+OTU194;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__";1;0;0;0;0;0;1;1;1;2
+OTU195;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Anaeroglobus";0;0;0;0;0;0;0;0;0;0
+OTU196;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Dialister";1;0;7;0;0;3;1;0;1;2
+OTU197;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megamonas";0;0;0;0;0;0;0;0;0;0
+OTU198;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium";0;0;0;0;0;0;0;0;0;0
+OTU199;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Selenomonas";5;3;3;1;1;2;1;1;1;2
+OTU200;"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Veillonella";1256;655;502;363;1006;850;527;560;1154;559
+OTU201;"k__Bacteria;p__Firmicutes;c__Clostridia;o__MBA08;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU202;"k__Bacteria;p__Fusobacteria;c__Fusobacteria (class);o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium";591;500;577;171;637;512;421;393;267;533
+OTU203;"k__Bacteria;p__Fusobacteria;c__Fusobacteria (class);o__Fusobacteriales;f__Fusobacteriaceae;g__J2-29";0;0;0;0;0;0;0;0;0;0
+OTU204;"k__Bacteria;p__Fusobacteria;c__Fusobacteria (class);o__Fusobacteriales;f__Fusobacteriaceae;g__Leptotrichia";263;151;107;32;95;170;88;49;129;118
+OTU205;"k__Bacteria;p__Gemmatimonadetes;c__Gemmatimonadetes (class);o__Gemmatimonadales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU206;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU207;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Brevundimonas";0;0;0;0;0;0;0;0;0;0
+OTU208;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Caulobacter";0;0;0;0;0;0;0;0;0;0
+OTU209;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Phenylobacterium";0;0;0;0;0;0;0;0;0;0
+OTU210;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU211;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU212;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Afipia";0;0;0;0;0;0;0;0;0;0
+OTU213;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Balneimonas";0;0;0;0;0;0;0;0;0;0
+OTU214;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Bosea";0;0;0;0;0;0;0;0;0;0
+OTU215;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Bradyrhizobiaceae;g__Bradyrhizobium";0;0;0;0;0;0;0;0;0;0
+OTU216;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Brucellaceae;g__Pseudochrobactrum";0;0;0;0;0;0;0;0;0;0
+OTU217;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Hyphomicrobiaceae;g__Rhodoplanes";0;0;0;0;0;0;0;0;0;0
+OTU218;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Methylobacteriaceae;g__Methylobacterium";0;0;0;0;0;0;0;0;0;0
+OTU219;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU220;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Phyllobacteriaceae;g__Phyllobacterium";0;0;0;0;0;0;0;0;0;0
+OTU221;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU222;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Agrobacterium";0;0;0;0;0;0;0;0;0;0
+OTU223;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Mycoplana";0;0;0;0;0;0;0;0;0;0
+OTU224;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Rhizobiaceae;g__Rhizobium";0;0;0;0;0;0;0;0;0;0
+OTU225;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Ancylobacter";0;0;0;0;0;0;0;0;0;0
+OTU226;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU227;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Paracoccus";0;0;0;0;0;0;0;0;0;0
+OTU228;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Rubellimicrobium";0;0;0;0;0;0;0;1;0;0
+OTU229;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Thioclava";0;0;0;0;0;0;0;0;0;0
+OTU230;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU231;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Asaia";0;0;0;0;0;0;0;0;0;0
+OTU232;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Gluconobacter";0;0;0;0;0;0;0;0;0;0
+OTU233;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Acetobacteraceae;g__Roseomonas";0;0;0;0;0;0;0;0;0;0
+OTU234;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Azospirillum";0;0;0;0;0;0;0;0;0;0
+OTU235;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Rhodospirillales;f__Rhodospirillaceae;g__Skermanella";0;0;0;0;0;0;0;0;0;0
+OTU236;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU237;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Erythrobacteraceae;g__Erythromicrobium";0;0;0;0;0;0;0;0;0;0
+OTU238;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU239;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Blastomonas";0;0;0;0;0;0;0;0;0;0
+OTU240;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Kaistobacter";0;0;0;0;0;0;0;0;0;0
+OTU241;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Novosphingobium";0;0;0;0;0;0;0;0;0;0
+OTU242;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingobium";0;0;0;0;0;0;0;0;0;0
+OTU243;"k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__Sphingomonadales;f__Sphingomonadaceae;g__Sphingomonas";0;0;0;0;0;0;0;0;1;0
+OTU244;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU245;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__";0;0;0;0;0;0;0;3;1;0
+OTU246;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Aquabacterium";0;0;0;0;0;0;0;0;0;0
+OTU247;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Ideonella";0;0;0;0;0;0;0;0;0;0
+OTU248;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Methylibium";0;0;0;0;0;0;0;5;0;0
+OTU249;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Paucibacter";0;0;0;0;0;0;0;0;0;0
+OTU250;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Rubrivivax";0;0;0;0;0;0;0;8;0;0
+OTU251;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__;g__Tepidimonas";0;0;0;0;0;0;0;0;0;0
+OTU252;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__";0;0;0;0;0;0;0;8;0;0
+OTU253;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Achromobacter";0;0;0;0;0;0;0;0;0;0
+OTU254;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Alcaligenes";0;0;0;0;0;0;0;0;0;0
+OTU255;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Azohydromonas";0;0;0;0;0;0;0;0;0;0
+OTU256;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU257;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Burkholderia";0;0;0;0;0;0;0;0;0;0
+OTU258;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Cupriavidus";0;0;0;0;0;0;0;0;0;0
+OTU259;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Lautropia";0;0;0;0;0;0;0;5;3;1
+OTU260;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Pandoraea";0;0;0;0;0;0;0;0;0;0
+OTU261;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Burkholderiaceae;g__Ralstonia";0;0;0;1;0;0;0;0;0;0
+OTU262;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__";0;0;0;0;0;0;0;1;0;1
+OTU263;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Acidovorax";0;0;0;0;0;0;0;0;0;0
+OTU264;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Aquamonas";0;0;0;0;0;0;0;0;0;0
+OTU265;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Brachymonas";0;0;0;0;0;0;0;0;0;0
+OTU266;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Comamonas";0;0;0;0;0;0;0;0;0;0
+OTU267;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Delftia";0;0;0;0;0;0;0;0;0;0
+OTU268;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Hylemonella";0;0;0;0;0;0;0;0;0;0
+OTU269;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Limnohabitans";0;0;0;0;0;0;0;0;0;0
+OTU270;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Polaromonas";0;0;0;0;0;0;0;0;0;0
+OTU271;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Ramlibacter";0;0;0;0;0;0;0;2;0;0
+OTU272;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Comamonadaceae;g__Schlegelella";0;0;0;0;0;0;0;0;0;0
+OTU273;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__";0;0;1;0;0;0;0;0;0;0
+OTU274;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Herbaspirillum";0;0;0;0;0;0;0;0;0;0
+OTU275;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Janthinobacterium";0;0;0;0;0;0;0;0;0;0
+OTU276;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Massilia";0;0;0;0;0;0;0;0;0;0
+OTU277;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Hydrogenophilales;f__Hydrogenophilaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU278;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Hydrogenophilales;f__Hydrogenophilaceae;g__Hydrogenophilus";0;0;0;0;0;0;0;0;0;0
+OTU279;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Methylophilales;f__Methylophilaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU280;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Methylophilales;f__Methylophilaceae;g__Methylophilus";0;0;0;0;0;0;0;0;0;0
+OTU281;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Methylophilales;f__Methylophilaceae;g__Methylotenera";0;0;0;0;0;0;0;1;0;0
+OTU282;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__";0;0;1;3;12;13;15;19;20;23
+OTU283;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Bergeriella";0;0;0;0;0;0;2;0;0;0
+OTU284;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Conchiformibius";0;0;0;0;0;0;1;0;0;1
+OTU285;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Eikenella";0;0;0;0;0;0;0;0;0;1
+OTU286;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Kingella";0;0;0;0;0;1;1;0;1;1
+OTU287;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Neisseria";80;78;258;113;499;1599;1554;2076;1500;1654
+OTU288;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Stenoxybacter";0;0;0;0;0;0;0;0;0;0
+OTU289;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Neisseriales;f__Neisseriaceae;g__Vogesella";0;0;0;0;0;0;0;3;0;0
+OTU290;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Rhodocyclales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU291;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Rhodocyclales;f__Rhodocyclaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU292;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Rhodocyclales;f__Rhodocyclaceae;g__Methyloversatilis";0;0;0;0;0;0;0;0;0;0
+OTU293;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Rhodocyclales;f__Rhodocyclaceae;g__Rhodocyclus";0;0;0;0;0;0;0;0;0;0
+OTU294;"k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Rhodocyclales;f__Rhodocyclaceae;g__Zoogloea";0;0;0;0;0;0;0;0;0;0
+OTU295;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__CTD005-82B-02;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU296;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfobacterales;f__Desulfobulbaceae;g__Desulfobulbus";0;0;0;0;0;0;0;0;0;0
+OTU297;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Bilophila";0;0;0;0;0;0;0;0;0;0
+OTU298;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__MIZ46;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU299;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU300;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Cystobacteraceae;g__Stigmatella";0;0;0;0;0;0;0;0;0;0
+OTU301;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Myxococcales;f__Polyangiaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU302;"k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Syntrophobacterales;f__Syntrophaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU303;"k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter";36;61;55;12;13;45;19;39;16;33
+OTU304;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU305;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Aeromonadaceae;g__Aeromonas";0;0;0;0;0;0;0;0;0;0
+OTU306;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Chromatiaceae;g__Rheinheimera";0;0;0;0;0;0;0;0;0;0
+OTU307;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Moritellaceae;g__Moritella";0;0;0;0;0;0;0;0;0;0
+OTU308;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Alteromonadales;f__Psychromonadaceae;g__Psychromonas";0;0;0;0;0;0;0;0;0;0
+OTU309;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Cardiobacteriales;f__Cardiobacteriaceae;g__Cardiobacterium";0;0;0;0;0;0;0;0;0;0
+OTU310;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Chromatiales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU311;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU312;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Citrobacter";0;0;0;0;0;0;0;0;0;0
+OTU313;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Enterobacter";0;0;0;0;0;0;0;0;0;0
+OTU314;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Erwinia";0;0;0;0;0;0;0;0;0;0
+OTU315;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Escherichia";0;0;0;0;0;0;0;0;0;0
+OTU316;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Klebsiella";0;0;0;0;0;0;0;0;0;0
+OTU317;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Leclercia";0;0;0;0;0;0;0;0;0;0
+OTU318;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Pantoea";0;0;0;0;0;0;0;0;0;0
+OTU319;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Raoultella";0;0;0;0;0;0;0;0;0;0
+OTU320;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Shigella";0;0;0;0;0;0;0;0;0;0
+OTU321;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Sodalis";0;0;0;0;0;0;0;0;0;0
+OTU322;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Tatumella";0;0;0;0;0;0;0;0;0;0
+OTU323;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__Trabulsiella";0;0;0;0;0;0;0;0;0;1
+OTU324;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU325;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__;g__Congregibacter";0;0;0;0;0;0;0;0;0;0
+OTU326;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Alteromonadaceae;g__Microbulbifer";0;0;0;0;0;0;0;0;0;0
+OTU327;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Halomonadaceae;g__Chromohalobacter";0;0;0;0;0;0;0;0;0;0
+OTU328;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Halomonadaceae;g__Halomonas";0;0;0;0;0;0;0;0;0;0
+OTU329;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Pseudomonadaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU330;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Oceanospirillales;f__Pseudomonadaceae;g__Pseudomonas";0;0;0;0;0;0;0;2;0;0
+OTU331;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__";2111;1872;2387;2813;4396;2094;1934;1947;1666;1078
+OTU332;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Actinobacillus";1;2;8;2;6;2;3;4;3;2
+OTU333;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Aggregatibacter";3;25;15;4;11;36;13;4;14;30
+OTU334;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Avibacterium";0;0;0;0;0;0;0;0;0;0
+OTU335;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Basfia";0;0;0;0;0;0;0;0;0;0
+OTU336;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Bibersteinia";0;0;0;0;0;0;0;0;0;0
+OTU337;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Gallibacterium";4;3;6;6;8;5;5;2;1;3
+OTU338;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus";897;945;1233;1164;1650;938;1008;719;699;630
+OTU339;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Histophilus";0;0;0;0;0;0;0;0;0;0
+OTU340;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Mannheimia";0;0;0;0;0;0;0;0;0;0
+OTU341;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Pasteurella";0;0;0;0;0;0;0;0;0;0
+OTU342;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Volucribacter";0;0;0;0;0;0;0;0;0;0
+OTU343;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU344;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Acinetobacter";0;0;1;1;0;0;0;5;2;0
+OTU345;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Enhydrobacter";0;0;0;0;0;0;0;0;0;0
+OTU346;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Moraxella";0;0;0;0;0;0;0;0;0;0
+OTU347;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Moraxellaceae;g__Psychrobacter";0;0;0;0;0;0;0;0;0;0
+OTU348;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Aliivibrio";0;0;0;0;0;0;0;0;0;0
+OTU349;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Photobacterium";0;0;0;0;0;0;0;0;0;0
+OTU350;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Salinivibrio";0;0;0;0;0;0;0;0;0;0
+OTU351;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Vibrionales;f__Vibrionaceae;g__Vibrio";0;0;0;0;0;0;0;0;0;0
+OTU352;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU353;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Dokdonella";0;0;0;0;0;0;0;0;0;0
+OTU354;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Lysobacter";0;0;0;0;0;0;0;0;0;8
+OTU355;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Pseudoxanthomonas";0;0;0;0;0;0;0;0;0;0
+OTU356;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Stenotrophomonas";0;0;0;0;0;0;0;0;0;1
+OTU357;"k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Xanthomonadales;f__Xanthomonadaceae;g__Xanthomonas";0;0;0;0;0;0;0;0;0;0
+OTU358;"k__Bacteria;p__SPAM;c__;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU359;"k__Bacteria;p__SR1;c__;o__;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU360;"k__Bacteria;p__Spirochaetes;c__Spirochaetes (class);o__Spirochaetales;f__Spirochaetaceae;g__Treponema";1;1;5;0;0;2;0;0;0;0
+OTU361;"k__Bacteria;p__Synergistetes;c__Synergistia;o__Synergistales;f__Dethiosulfovibrionaceae;g__TG5";0;0;0;0;0;0;0;0;0;0
+OTU362;"k__Bacteria;p__TM7;c__TM7-3;o__CW040;f__;g__";0;0;0;0;0;0;0;0;0;0
+OTU363;"k__Bacteria;p__TM7;c__TM7-3;o__EW055;f__;g__";4;0;0;1;0;1;0;0;1;0
+OTU364;"k__Bacteria;p__Tenericutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__";0;0;0;0;0;0;0;0;0;0
+OTU365;"k__Bacteria;p__Tenericutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Bulleidia";40;36;14;12;22;10;8;8;7;17
+OTU366;"k__Bacteria;p__Tenericutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Catenibacterium";0;0;0;0;0;0;0;0;0;0
+OTU367;"k__Bacteria;p__Tenericutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Clostridium";0;0;0;0;0;0;0;0;0;0
+OTU368;"k__Bacteria;p__Tenericutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Sharpea";0;0;0;0;0;0;0;0;0;0
+OTU369;"k__Bacteria;p__Tenericutes;c__Mollicutes;o__Mycoplasmatales;f__Mycoplasmataceae;g__Mycoplasma";0;0;0;0;0;0;0;0;0;0
+OTU370;"k__Bacteria;p__Thermi;c__Deinococci;o__Deinococcales;f__Deinococcaceae;g__Deinococcus";0;0;0;0;0;0;0;0;0;0
+OTU371;"k__Bacteria;p__Thermi;c__Deinococci;o__Thermales;f__Thermaceae;g__Thermus";0;0;0;0;0;0;0;0;0;0
+OTU372;"k__Bacteria;p__Verrucomicrobia;c__Spartobacteria;o__;f__;g__Chthoniobacter";0;0;0;0;0;0;0;0;0;1
+OTU373;"k__Bacteria;p__Verrucomicrobia;c__Verrucomicrobiae;o__Verrucomicrobiales;f__Verrucomicrobiaceae;g__Akkermansia";0;0;0;0;0;0;0;0;0;0
