@@ -47,6 +47,11 @@ There a user can upload expression information, domain information or microbial 
 phantomjs-2.1.1-linux-i686/bin/phantomjs rasterize.js 'Use_case_combined.html' V1.png "100cm*80cm" 3
 convert V1.png -trim V1x1.png
 ```
+## Microbiome analysis
+
+<p align="center">
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="350"/>
+</p>
 
 #### Excel to tab export
 
