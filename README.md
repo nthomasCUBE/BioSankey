@@ -49,8 +49,11 @@ convert V1.png -trim V1x1.png
 ```
 ## Microbiome analysis
 
+After the OTU Table has been added using the GUI and after clicking on the microbiome
+Button, the BioSankey plot opens and the taxonomic groups are shown.
+
 <p align="center">
- <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="350"/>
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="500"/>
 </p>
 
 #### Excel to tab export
