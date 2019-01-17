@@ -53,7 +53,7 @@ After the OTU Table has been added using the GUI and after clicking on the micro
 Button, the BioSankey plot opens and the taxonomic groups are shown.
 
 <p align="center">
- <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="500"/>
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="1000"/>
 </p>
 
 #### Excel to tab export
