@@ -3,11 +3,11 @@
  ## Update (10/8/20)
  
  Now, we added 
- """
+```
  <script>
     google.charts.load('current', {packages: ['corechart','sankey']});
 </script>
- """
+```
  to the existing code, so that BioSankey can still be used with Google Charts. Thanks for M. Mammel for observing this problem of changed
  loading of JS libraries.
  
