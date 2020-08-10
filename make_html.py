@@ -15,7 +15,7 @@ import sys
 #   ------------------------------------------------
 
 def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
-	fh=open("template/template_V2.txt")
+	fh=open("template/template_V3.txt")
 	a=""
 	for line in fh.readlines():
 		a=a+line
