@@ -1,16 +1,5 @@
 # BioSankey
  
- ## Update (10/8/20)
- 
- Now, we added 
-```
- <script>
-    google.charts.load('current', {packages: ['corechart','sankey']});
-</script>
-```
- to the existing code, so that BioSankey can still be used with Google Charts. Thanks for M. Mammel for observing this problem of changed
- loading of JS libraries.
- 
 ## What is BioSankey?
 
  BioSankey is a tool for generating Sankey plots from biological data either by using gene expression or microbical data. Sankey plots are suitable to show changes of counts or abundances over time (e.g. gene expression and abundances of microbial species). The plots are produced as an interactive Javascript HTML page and as static PDF plots. Multiple input formats are supported.
@@ -79,6 +68,16 @@ In order to export Excelt o tsv, we recommend to use [xlsx2tsv](https://gist.git
  If there are any issues and suggestions, please contact 
  Alexander Platzer ( alexander.platzer AT univie.ac.at ) or Thomas Nussbaumer ( thomas.nussbaumer AT univie.ac.at )
  
+ ## Update (10/8/20)
+ 
+ Now, we added 
+```
+ <script>
+    google.charts.load('current', {packages: ['corechart','sankey']});
+</script>
+```
+ to the existing code, so that BioSankey can still be used with Google Charts. Thanks for M. Mammel for observing this problem of changed
+ loading of JS libraries.
  
  ## License
  https://creativecommons.org/licenses/by/4.0/
