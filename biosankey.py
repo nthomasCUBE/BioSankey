@@ -10,7 +10,9 @@ from os.path import basename
 #   ------------------------------------------------
 #                   BIOSANKEY
 #
-#   Last modification: 16 february 2018
+#   Last modification: 03 september 2020
+#
+#   03/09/20:   Adding warnings when using microbial datasets
 #
 #   ------------------------------------------------
 class BioSankey:
