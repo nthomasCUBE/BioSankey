@@ -79,5 +79,9 @@ In order to export Excelt o tsv, we recommend to use [xlsx2tsv](https://gist.git
  to the existing code, so that BioSankey can still be used with Google Charts. Thanks for M. Mammel for observing this problem of changed
  loading of JS libraries.
  
+ ## Update (03/9/20)
+ 
+ For microbiome datasets, adding information when data is not correctly formatted
+ 
  ## License
  https://creativecommons.org/licenses/by/4.0/
