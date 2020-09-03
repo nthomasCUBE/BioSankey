@@ -5,12 +5,14 @@ import extract_DEG_information
 import extract_gene_expression
 import extract_taxon_freq
 import string
+import ctypes
 import sys
 
 #   ------------------------------------------------
 #                   BIOSANKEY
 #
-#   Last modification: 16 february 2018
+#   Last modification: 03 september 2020
+#   03/09/20:   adding error message when microbiome input is not correctly formatted
 #
 #   ------------------------------------------------
 
@@ -59,6 +61,7 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 			my_dom=my_dom+"'%s':'%s'," % (dk_,",".join(list(domains[dk_].keys())))
 	tax_species=""
 	my_org={}
+	first_level={}
 	if(MIC_DIR!=None):
 		my_otus={}; abund={}; nmb_cond=None
 		with open(MIC_DIR, 'r') as csvfile:
@@ -68,6 +71,13 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 				i=i+1
 				if(i>1 and len(vals)>1):
 					org=vals[1].split(";")
+					if(not(len(list(org))==6 or len(list(org))==7)):
+						ctypes.windll.user32.MessageBoxW(0, "You need to provide the taxonomic profile seperated by ';' using six or seven taxonomic units. If only broader taxonomic units are known use (';;') (e.g. 'Bacteria;Pseudmonas;xx;xx;;;)", "Error",1)
+						return;
+
+					if(len(list(vals))>0):
+						first_level[vals[1].split(";")[0]]=1
+                                        
 					for org_ in org:
 						org_=org_.replace("\"","")
 						if(my_org.get(org_)==None):
@@ -79,6 +89,10 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 							for x in range(2,len(vals)):
 								abund[vals[0]].append(vals[x])
 							nmb_cond=len(vals)-2
+		if(len(list(first_level.keys()))!=1):
+			ctypes.windll.user32.MessageBoxW(0, "Within the taxonomic pofile first entry has to be the same for all OTUs';' (e.g. 'Bacteria;xx;xx;xx;;;)", "Error",1)
+			return
+
 		cmd="var group_item_map={"
 		for my_org_ in my_org:
 			cmd=cmd+"'"+my_org_+"'"+":"+"'"+",".join(list(my_org[my_org_]))+"',"
