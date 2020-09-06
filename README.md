@@ -54,8 +54,16 @@ convert V1.png -trim V1x1.png
 After the OTU Table has been added using the GUI and after clicking on the microbiome
 Button, the BioSankey plot opens and the taxonomic groups are shown.
 
+### Overall figure with total-counts per species summarizing all conditions together.
+
 <p align="center">
- <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/microbiome_view.png" width="1000"/>
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/Figure1.png" width="1000"/>
+</p>
+
+### Detail view where each taxon shown over timepoints
+
+<p align="center">
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/Figure2.png" width="1000"/>
 </p>
 
 #### Excel to tab export
@@ -68,7 +76,7 @@ In order to export Excelt o tsv, we recommend to use [xlsx2tsv](https://gist.git
  If there are any issues and suggestions, please contact 
  Alexander Platzer ( alexander.platzer AT univie.ac.at ) or Thomas Nussbaumer ( thomas.nussbaumer AT univie.ac.at )
  
- ## Update (10/8/20)
+ ### Update (10/8/20)
  
  Now, we added 
 ```
@@ -79,9 +87,13 @@ In order to export Excelt o tsv, we recommend to use [xlsx2tsv](https://gist.git
  to the existing code, so that BioSankey can still be used with Google Charts. Thanks for M. Mammel for observing this problem of changed
  loading of JS libraries.
  
- ## Update (03/9/20)
+ ### Update (03/9/20)
  
  For microbiome datasets, adding information when data is not correctly formatted
+ 
+ ### Update (06/9/20)
+ 
+Fixing height issue when displaying multiple OTUs.
  
  ## License
  https://creativecommons.org/licenses/by/4.0/
