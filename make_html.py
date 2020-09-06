@@ -89,9 +89,9 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 							for x in range(2,len(vals)):
 								abund[vals[0]].append(vals[x])
 							nmb_cond=len(vals)-2
-		if(len(list(first_level.keys()))!=1):
-			ctypes.windll.user32.MessageBoxW(0, "Within the taxonomic pofile first entry has to be the same for all OTUs';' (e.g. 'Bacteria;xx;xx;xx;;;)", "Error",1)
-			return
+		#if(len(list(first_level.keys()))!=1):
+		#	ctypes.windll.user32.MessageBoxW(0, "Within the taxonomic pofile first entry has to be the same for all OTUs';' (e.g. 'Bacteria;xx;xx;xx;;;)", "Error",1)
+		#	return
 
 		cmd="var group_item_map={"
 		for my_org_ in my_org:
