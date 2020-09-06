@@ -11,9 +11,9 @@ import sys
 #   ------------------------------------------------
 #                   BIOSANKEY
 #
-#   Last modification: 03 september 2020
+#   Last modification: 04 september 2020
 #   03/09/20:   adding error message when microbiome input is not correctly formatted
-#
+#   06/09/20:	now Bacteria and Archae can be displayed, >1 nodes
 #   ------------------------------------------------
 
 def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
