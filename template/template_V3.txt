@@ -83,7 +83,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
                 </div>
                 <div class="panel-body"">
                     <br>
-                    <div id="sankey_basic" style="width: 100%; height: 100%;"></div>
+                    <div id="sankey_basic" style="width: 100%; height: 10000%;"></div>
                     <br>
                 </div>
 
