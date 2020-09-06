@@ -159,7 +159,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 		}else{
 			____ENTRY____
 		}
-		options=my_opt(1300,1300,25)
+		options=my_opt(1300,13000,25)
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
 	    google.visualization.events.addListener(chart, 'select', function() {
@@ -181,7 +181,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         	goi.push(cur_val)
         }
 		data=too_many_genes("Cumulative expression:")
-		options=my_opt(2000,1000,20)
+		options=my_opt(2000,10000,20)
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
     }
@@ -194,7 +194,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         	goi.push(cur_val)
         }
 		data=too_many_genes("Cumulative expression:")
-		options=my_opt(2000,1000,20)
+		options=my_opt(2000,10000,20)
 		var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
 		chart.draw(data, options);
     }
@@ -238,7 +238,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         }else{
         	gene_was_selected=true
 		}
-		options=my_opt(2000,1000,20)
+		options=my_opt(2000,10000,20)
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
         google.visualization.events.addListener(chart, 'select', function() {
@@ -249,7 +249,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     }
     function drawChart() {
     	var data = make_table('Amount of genes');
-		options=my_opt(5000,5000,20)
+		options=my_opt(5000,50000,20)
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
           google.visualization.events.addListener(chart, 'select', function() {
