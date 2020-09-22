@@ -8,6 +8,14 @@
  <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/biosankey_11oct17.png" width="350"/>
 </p>
  
+ ## Wanto to display certain genus or species?... No problem..
+ 
+Possible by clicking on e.g. 'Neisseria'. All OTUs are then shown.
+
+<p align="center">
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/FigureNEW.png" width="350"/>
+ </p>
+ 
  ## Prerequisites
  
  Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularly efficient.
