@@ -149,6 +149,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 			var cur_vals=group_item_map[input].split(',');
 					c_max=100;
             		for(var cur_val in cur_vals){
+            			c_max=100;
             			for(var xx in expr_map[cur_vals[cur_val]]){
             				var yy=expr_map[cur_vals[cur_val]][xx];
             				yy=yy.toString().split(',')[2];
@@ -157,11 +158,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 	            			}
 
             			}
+					data.addRows([[input,cur_vals[cur_val].concat('R0'),c_max]]);
 					}
 
-				for(var cur_val in cur_vals){
-					data.addRows([[input,cur_vals[cur_val].concat('R0'),c_max]]);
-				}
             		for(var cur_val in cur_vals){
 				data.addRows(expr_map[cur_vals[cur_val]]);
 			}
