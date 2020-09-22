@@ -147,15 +147,29 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         var data = make_table("Cumulative abundance:")
 		if(input!="MICROBIOME"){
 			var cur_vals=group_item_map[input].split(',');
-            for(var cur_val in cur_vals){
+					c_max=100;
+            		for(var cur_val in cur_vals){
+            			for(var xx in expr_map[cur_vals[cur_val]]){
+            				var yy=expr_map[cur_vals[cur_val]][xx];
+            				yy=yy.toString().split(',')[2];
+	            			if(c_max<parseFloat(yy)){
+	            				c_max=parseFloat(yy);
+	            			}
+
+            			}
+					}
+
+				for(var cur_val in cur_vals){
+					data.addRows([[input,cur_vals[cur_val].concat('R0'),c_max]]);
+				}
+            		for(var cur_val in cur_vals){
 				data.addRows(expr_map[cur_vals[cur_val]]);
 			}
 			goi=[]
-            for(var cur_val in cur_vals){
-            	cur_val=cur_vals[cur_val];
-            	goi.push(cur_val)
-            }
-			data=too_many_genes("Cumulative abundance:")
+            		for(var cur_val in cur_vals){
+            			cur_val=cur_vals[cur_val];
+            			goi.push(cur_val)
+            		}
 		}else{
 			____ENTRY____
 		}
