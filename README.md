@@ -8,6 +8,17 @@
  <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/biosankey_11oct17.png" width="350"/>
 </p>
  
+ ### Input should be as follows for micriobiome data
+ 
+```
+ OTU;"Taxonomic group";1;2;3;4;5
+XYZ1;"Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Moraxellaceae;Acinetobacter;";0;73;62;3;1454
+XYZ2;"Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Citrobacter;";4549;23;4;8;37
+XYZ3;"Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;";133489;555;294;1242;443
+XYZ4;"Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Yokenella;";0;68;35;263;709
+XYZ5;"Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;";346;23;224;6;66
+```
+ 
  ## Wanto to display certain genus or species?... No problem..
  
 Possible by clicking on e.g. 'Neisseria'. All OTUs are then shown.
