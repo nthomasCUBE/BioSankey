@@ -19,14 +19,6 @@ XYZ4;"Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacter
 XYZ5;"Bacteria;Bacteroidetes;Bacteroidia;Bacteroidales;Bacteroidaceae;Bacteroides;";346;23;224;6;66
 ```
  
- ## Wanto to display certain genus or species?... No problem..
- 
-Possible by clicking on e.g. 'Neisseria'. All OTUs are then shown.
-
-<p align="center">
- <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/FigureNEW.png" width="800"/>
- </p>
- 
  ## Prerequisites
  
  Python must be installed and a browser must be present, preferably a browser where JavaScript engine is particularly efficient.
@@ -78,6 +70,16 @@ Button, the BioSankey plot opens and the taxonomic groups are shown.
 <p align="center">
  <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/Figure1.png" width="1000"/>
 </p>
+
+ 
+ ## Wanto to display certain genus or species?... No problem..
+ 
+Possible by clicking on e.g. 'Neisseria'. All OTUs are then shown.
+
+<p align="center">
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/FigureNEW.png" width="800"/>
+ </p>
+
 
 ### Detail view where each taxon shown over timepoints
 
