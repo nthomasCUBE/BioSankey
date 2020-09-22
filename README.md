@@ -13,7 +13,7 @@
 Possible by clicking on e.g. 'Neisseria'. All OTUs are then shown.
 
 <p align="center">
- <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/FigureNEW.png" width="350"/>
+ <img src="https://github.com/nthomasCUBE/BioSankey/blob/master/images/FigureNEW.png" width="800"/>
  </p>
  
  ## Prerequisites
