@@ -14,6 +14,9 @@ def parse_taxon_freq(c_f, threshold):
 	levels={}
 	freq={}
 	prev={}
+
+	na_cnt={}
+
 	with open(c_f, 'r') as csvfile:
 		spamreader = csv.reader(csvfile, delimiter=';', quotechar='\"')
 		for vals in spamreader:
@@ -21,10 +24,13 @@ def parse_taxon_freq(c_f, threshold):
 				cl=vals[1].split(";")
 				for x in range(1,len(cl)):
 					cs=0
+
 					for y in range(2,len(vals)):
 						c_v=float(vals[y].replace(",","."))
 						cs=cs+c_v
-					if(cs>threshold):			
+					if(cs>threshold):
+						if(cl[x]=="NA"):
+							cl[x]=cl[x-1]+"_"+cl[x]
 						if(freq.get(cl[x])==None):
 							freq[cl[x]]=0
 						if(levels.get(x)==None):
