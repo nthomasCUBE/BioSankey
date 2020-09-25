@@ -29,6 +29,8 @@ def parse_taxon_freq(c_f, threshold):
 						c_v=float(vals[y].replace(",","."))
 						cs=cs+c_v
 					if(cs>threshold):
+						if(cl[x].strip()==""):
+							cl[x]="NA"
 						if(cl[x]=="NA"):
 							cl[x]=cl[x-1]+"_"+cl[x]
 						if(freq.get(cl[x])==None):
@@ -48,6 +50,7 @@ def parse_taxon_freq(c_f, threshold):
 		for gg_ in gg:
 			if(int(freq[gg_])>=0 and prev[gg_]!=gg_ ):
 				cmd=cmd+"['%s','%s',%i]," % (prev[gg_],gg_,int(freq[gg_]))
+				print(prev[gg_],gg_,int(freq[gg_]))
 	cmd=cmd+"]);"
 	return(cmd)
 
