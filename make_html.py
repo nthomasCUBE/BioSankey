@@ -17,6 +17,8 @@ import sys
 #   ------------------------------------------------
 
 def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
+
+
 	fh=open("template/template_V3.txt")
 	a=""
 	for line in fh.readlines():
@@ -94,7 +96,7 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 		#	ctypes.windll.user32.MessageBoxW(0, "Within the taxonomic pofile first entry has to be the same for all OTUs';' (e.g. 'Bacteria;xx;xx;xx;;;)", "Error",1)
 		#	return
 
-		cmd="var group_item_map={"
+		cmd=cmd1
 		for my_org_ in my_org:
 			cmd=cmd+"'"+my_org_+"'"+":"+"'"+",".join(list(my_org[my_org_]))+"',"
 		map_add=","
@@ -113,6 +115,7 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 	else:
 		a=a.replace("___EXPR_MAP___","var expr_map={"+map_add+"}")
 
+	tax_species="var group_item_map={"+tax_species
 	if(len(my_dom)>0):
 		tax_species=tax_species+my_dom
 	tax_species=tax_species+"}"
