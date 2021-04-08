@@ -62,6 +62,7 @@ def parse_html(EXPR_DIR, MIC_DIR, DEG_DIR, DOM_DIR, nmb_genes, THRESHOLD):
 	tax_species=""
 	my_org={}
 	first_level={}
+	map_add=""
 	if(MIC_DIR!=None):
 		my_otus={}; abund={}; nmb_cond=None
 		with open(MIC_DIR, 'r') as csvfile:
