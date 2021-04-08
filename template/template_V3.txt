@@ -218,6 +218,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         var cur_vals=document.getElementById('textarea1').value;
         var gene_was_selected=false
         var data = make_table("expression:");
+	options=my_opt(2000,10000,20)
         if(rid==1){
         	var my_select = document.getElementById("my_select3");
         	id=(my_select[input].value)
@@ -248,10 +249,13 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
         	if(input=="GENES"){
 				data=too_many_genes("Cumulative expression:")
 			}
+
         }else{
         	gene_was_selected=true
 		}
-		options=my_opt(2000,10000,20)
+	if(input!="MICROBIOME"){
+		options=my_opt(1000,1000,20)
+	}
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
         google.visualization.events.addListener(chart, 'select', function() {
